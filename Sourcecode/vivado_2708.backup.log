@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 09:15:57 2020
+# Process ID: 2708
+# Current directory: D:/car/blueteeth_car/car
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13984 D:\car\blueteeth_car\car\car.xpr
+# Log file: D:/car/blueteeth_car/car/vivado.log
+# Journal file: D:/car/blueteeth_car/car\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/car/blueteeth_car/car/car.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 701.566 ; gain = 97.953
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Aug  1 09:16:26 2020] Launched impl_1...
+Run output will be captured here: D:/car/blueteeth_car/car/car.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 09:18:00 2020...

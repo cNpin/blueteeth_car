@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="20813373333001fs"></ZoomEndTime>
+      <Cursor1Time time="20813373333000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uart_rx_i" type="logic">
+      <obj_property name="ElementShortName">uart_rx_i</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uart_tx_o" type="logic">
+      <obj_property name="ElementShortName">uart_tx_o</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/IN1" type="logic">
+      <obj_property name="ElementShortName">IN1</obj_property>
+      <obj_property name="ObjectShortName">IN1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/IN2" type="logic">
+      <obj_property name="ElementShortName">IN2</obj_property>
+      <obj_property name="ObjectShortName">IN2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/IN3" type="logic">
+      <obj_property name="ElementShortName">IN3</obj_property>
+      <obj_property name="ObjectShortName">IN3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/IN4" type="logic">
+      <obj_property name="ElementShortName">IN4</obj_property>
+      <obj_property name="ObjectShortName">IN4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/ENA" type="logic">
+      <obj_property name="ElementShortName">ENA</obj_property>
+      <obj_property name="ObjectShortName">ENA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/ENB" type="logic">
+      <obj_property name="ElementShortName">ENB</obj_property>
+      <obj_property name="ObjectShortName">ENB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/Key2" type="logic">
+      <obj_property name="ElementShortName">Key2</obj_property>
+      <obj_property name="ObjectShortName">Key2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/sbuf" type="array">
+      <obj_property name="ElementShortName">sbuf[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sbuf[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/speed" type="array">
+      <obj_property name="ElementShortName">speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test1/driver" type="array">
+      <obj_property name="ElementShortName">driver[2:0]</obj_property>
+      <obj_property name="ObjectShortName">driver[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/Key1" type="logic">
+      <obj_property name="ElementShortName">Key1</obj_property>
+      <obj_property name="ObjectShortName">Key1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/Rst" type="logic">
+      <obj_property name="ElementShortName">Rst</obj_property>
+      <obj_property name="ObjectShortName">Rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/NUM" type="logic">
+      <obj_property name="ElementShortName">NUM</obj_property>
+      <obj_property name="ObjectShortName">NUM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/LED1" type="logic">
+      <obj_property name="ElementShortName">LED1</obj_property>
+      <obj_property name="ObjectShortName">LED1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/LED2" type="logic">
+      <obj_property name="ElementShortName">LED2</obj_property>
+      <obj_property name="ObjectShortName">LED2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/State_Next" type="array">
+      <obj_property name="ElementShortName">State_Next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">State_Next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/u/test2/State_Current" type="array">
+      <obj_property name="ElementShortName">State_Current[3:0]</obj_property>
+      <obj_property name="ObjectShortName">State_Current[3:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,90 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jul 31 23:11:13 2020
+| Host         : DESKTOP-3BVEL9L running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file car_control_sets_placed.rpt
+| Design       : car
+| Device       : xc7s15
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    95 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           10 |
+|      3 |            1 |
+|      4 |            2 |
+|      6 |            2 |
+|      7 |            2 |
+|      8 |            2 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              26 |           10 |
+| Yes          | No                    | No                     |              17 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+--------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|           Clock Signal          |                      Enable Signal                     |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count |
++---------------------------------+--------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|  test2/LED2_reg_i_1_n_0         |                                                        |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[2]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[0]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[6]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[4]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[5]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[3]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/p_0_in[7]                    |                                                   |                1 |              1 |
+|  inst/inst/clk_out1             | u_uart_top/uart_tx_path_u/uart_tx_o_r_i_1_n_0          |                                                   |                1 |              1 |
+| ~u_uart_top/uart_rx_path_u/Key1 |                                                        |                                                   |                1 |              3 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/bit_num[3]_i_2_n_0           | u_uart_top/uart_rx_path_u/bit_num[3]_i_1__0_n_0   |                1 |              4 |
+|  inst/inst/clk_out1             | u_uart_top/uart_tx_path_u/bit_num[3]_i_2__0_n_0        | u_uart_top/uart_tx_path_u/bit_num[3]_i_1_n_0      |                1 |              4 |
+|  inst/inst/clk_out1             |                                                        | u_uart_top/uart_rx_path_u/baud_div[11]_i_1__0_n_0 |                2 |              6 |
+|  inst/inst/clk_out1             |                                                        | u_uart_top/uart_tx_path_u/baud_div[11]_i_1_n_0    |                2 |              6 |
+|  inst/inst/clk_out1             |                                                        | u_uart_top/uart_rx_path_u/baud_div[12]_i_1_n_0    |                3 |              7 |
+|  inst/inst/clk_out1             |                                                        | u_uart_top/uart_tx_path_u/baud_div[12]_i_1_n_0    |                3 |              7 |
+|  inst/inst/clk_out1             | u_uart_top/uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 |                                                   |                1 |              8 |
+|  inst/inst/clk_out1             | u_uart_top/uart_tx_path_u/send_data[8]_i_2_n_0         | u_uart_top/uart_tx_path_u/send_data[8]_i_1_n_0    |                2 |              8 |
+|  inst/inst/clk_out1             |                                                        |                                                   |                7 |             18 |
++---------------------------------+--------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+
+

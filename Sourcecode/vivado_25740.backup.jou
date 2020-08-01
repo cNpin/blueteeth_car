@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 11:00:49 2020
+# Process ID: 25740
+# Current directory: D:/car/blueteeth_car/blueteeth_car
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28408 D:\car\blueteeth_car\blueteeth_car\car.xpr
+# Log file: D:/car/blueteeth_car/blueteeth_car/vivado.log
+# Journal file: D:/car/blueteeth_car/blueteeth_car\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/car/blueteeth_car/blueteeth_car/car.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/car/blueteeth_car/blueteeth_car/TB_behav.wcfg
+source TB.tcl
+restart
+run 5 s
+close_sim
